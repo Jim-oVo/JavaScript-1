@@ -32,7 +32,7 @@ let unm = randomInt(1, 8)
 let textArr = ['6666', '学到了', '感谢分享', '很有帮助', '原来是这样', '懂了,懂了', '学习一下', '知识又增加了'];
 let text = textArr[unm];
 //---------------------------------------------------------------------------------------------------------
-let VersionCheck = "1.1.1"
+let VersionCheck = "111"
 let Change = '更新模板 ,增加积分查询 !'
 let thank = `\n感谢 xx 的投稿\n`
 //---------------------------------------------------------------------------------------------------------
@@ -347,7 +347,7 @@ async function Variable_Check(ck, Variables) {
 function Version_Check(name) {
 	return new Promise((resolve) => {
 		let url = {
-			url: `https://raw.gh.fakev.cn/yml2213/javascript/master/${name}/${name}.js`,
+			url: `https://raw.gh.fakev.cn/JimSkyovo/JavaScript-1/edit/${name}/${name}.js`,
 		}
 		$.get(url, async (err, resp, data) => {
 			try {
